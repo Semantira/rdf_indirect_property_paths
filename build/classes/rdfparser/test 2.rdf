@@ -1,0 +1,342 @@
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:dct="http://purl.org/dc/terms/" 
+	xmlns:isbd="http://iflastandards.info/ns/isbd/elements/" 
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+	xmlns:bibo="http://purl.org/ontology/bibo/" 
+	xmlns:rda="http://rdvocab.info/ElementsGr2/" 
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:blt="http://www.bl.uk/schemas/bibliographic/blterms#" 
+	xmlns:bio="http://purl.org/vocab/bio/0.1/" 
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+	xmlns:event="http://purl.org/NET/c4dm/event.owl#" 
+	xmlns:org="http://www.w3.org/ns/org#" 
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+	xmlns:owl="http://www.w3.org/2002/07/owl#" 
+	xmlns:interval="http://reference.data.gov.uk/def/intervals/" 
+	xmlns:time="http://www.w3.org/2006/time#">
+
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/000044704">
+	<rdfs:label>Ezra Pound and T. S. Eliot / Richard Aldington</rdfs:label>
+	<blt:bnb>GB5415875</blt:bnb>
+	<owl:sameAs rdf:resource="http://bnb.data.bl.uk/id/resource/GB5415875" />
+	<rdf:type rdf:resource="http://purl.org/dc/terms/BibliographicResource" />
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Book" />
+	<dct:title>Ezra Pound and T. S. Eliot : a lecture</dct:title>
+	<dct:creator>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/AldingtonRichard1892-1962">
+			<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+			<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+			<rdf:type rdf:resource="http://purl.org/dc/terms/Agent" />
+			<owl:sameAs rdf:resource="http://viaf.org/viaf/7402360" />
+			<rdfs:label>Aldington, Richard, 1892-1962</rdfs:label>
+			<foaf:name>Richard Aldington</foaf:name>
+			<foaf:familyName>Aldington</foaf:familyName>
+			<foaf:givenName>Richard</foaf:givenName>
+			<bio:event>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/AldingtonRichard1892-1962/birth">
+					<rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth" />
+					<bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1892</bio:date>
+					<rdfs:label>1892</rdfs:label>
+				</rdf:Description>
+			</bio:event>
+			<bio:event>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/AldingtonRichard1892-1962/death">
+					<rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Death" />
+					<bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1962</bio:date>
+					<rdfs:label>1962</rdfs:label>
+				</rdf:Description>
+			</bio:event>
+		</rdf:Description>
+	</dct:creator>
+	<blt:publication>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/000044704/publicationevent/HurstBerksPeacocksPress1954">
+			<rdf:type rdf:resource="http://www.bl.uk/schemas/bibliographic/blterms#PublicationEvent" />
+			<rdfs:label>Hurst, Berks. : Peacocks Press, 1954</rdfs:label>
+			<event:place>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/place/HurstBerks">
+					<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" />
+					<rdf:type rdf:resource="http://purl.org/dc/terms/Location" />
+					<rdfs:label>Hurst, Berks.</rdfs:label>
+				</rdf:Description>
+			</event:place>
+			<event:place rdf:resource="http://sws.geonames.org/6269131/" />
+				<event:agent>
+					<rdf:Description rdf:about="http://bnb.data.bl.uk/id/agent/PeacocksPress">
+						<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+						<rdf:type rdf:resource="http://purl.org/dc/terms/Agent" />
+						<rdfs:label>Peacocks Press</rdfs:label>
+					</rdf:Description>
+				</event:agent>
+			<event:time>
+				<rdf:Description rdf:about="http://reference.data.gov.uk/id/year/1954">
+					<rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarYear" />
+					<rdfs:label>1954</rdfs:label>
+				</rdf:Description>
+			</event:time>
+		</rdf:Description>
+	</blt:publication>
+	<dct:language rdf:resource="http://lexvo.org/id/iso639-3/eng" />
+	<isbd:P1053 xml:lang="en">20 p.</isbd:P1053>
+	<dct:subject>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/ddc/e18/811.5">
+			<skos:notation rdf:datatype="http://dewey.info/schema-terms/Notation">811.5</skos:notation>
+			<skos:inScheme rdf:resource="http://dewey.info/scheme/e18/" />
+			<rdf:type rdf:resource="http://www.bl.uk/schemas/bibliographic/blterms#TopicDDC" />
+			<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		</rdf:Description>
+	</dct:subject>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.loc.gov/vocabulary/languages/eng">
+	<skos:prefLabel xml:lang="en">English</skos:prefLabel>
+	<rdfs:label>English</rdfs:label>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eng</skos:notation>
+	<foaf:focus rdf:resource="http://lexvo.org/id/iso639-3/eng" />
+</rdf:Description>
+<rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+	<skos:prefLabel xml:lang="en">England</skos:prefLabel>
+	<rdfs:label>England</rdfs:label>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enk</skos:notation>
+	<foaf:focus rdf:resource="http://sws.geonames.org/6269131/" />
+</rdf:Description>
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/GB5415875">
+	<owl:sameAs rdf:resource="http://bnb.data.bl.uk/id/resource/000044704" />
+</rdf:Description>
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/AldingtonRichard1892-1962">
+	<blt:hasCreated rdf:resource="http://bnb.data.bl.uk/id/resource/000044704" />
+</rdf:Description>
+
+
+
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/000076385">
+	<rdfs:label>Ancrene wisse</rdfs:label>
+	<blt:bnb>GB6300475</blt:bnb>
+	<owl:sameAs rdf:resource="http://bnb.data.bl.uk/id/resource/GB6300475" />
+	<rdf:type rdf:resource="http://purl.org/dc/terms/BibliographicResource" />
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Book" />
+	<dct:title>Ancrene wisse : the English text of the Ancrene riwle, edited from ms. Corpus Christi College, Cambridge 402</dct:title>
+	<dct:alternative>Ancren riwle</dct:alternative>
+	<dct:contributor>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/TolkienJRR%28JohnRonaldReuel%291892-1973">
+			<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+			<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+			<rdf:type rdf:resource="http://purl.org/dc/terms/Agent" />
+			<owl:sameAs rdf:resource="http://viaf.org/viaf/95218067" />
+			<rdfs:label>Tolkien, J. R. R. (John Ronald Reuel), 1892-1973</rdfs:label>
+			<foaf:name>J. R. R. Tolkien</foaf:name>
+			<foaf:familyName>Tolkien</foaf:familyName>
+			<foaf:givenName>J. R. R.</foaf:givenName>
+			<bio:event>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/TolkienJRR%28JohnRonaldReuel%291892-1973/birth">
+					<rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth" />
+					<bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1892</bio:date>
+					<rdfs:label>1892</rdfs:label>
+				</rdf:Description>
+			</bio:event>
+			<bio:event>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/TolkienJRR%28JohnRonaldReuel%291892-1973/death">
+					<rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Death" />
+					<bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</bio:date>
+					<rdfs:label>1973</rdfs:label>
+				</rdf:Description>
+			</bio:event>
+		</rdf:Description>
+	</dct:contributor>
+	<blt:publication>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/000076385/publicationevent/LondonNewYorkpublishedfortheEarlyEnglishTextSocietybytheOxfordUniversityPress1962">
+			<rdf:type rdf:resource="http://www.bl.uk/schemas/bibliographic/blterms#PublicationEvent" />
+			<rdfs:label>London ; New York : published for the Early English Text Society by the Oxford University Press, 1962</rdfs:label>
+			<event:place>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/place/London">
+					<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" />
+					<rdf:type rdf:resource="http://purl.org/dc/terms/Location" />
+					<rdfs:label>London</rdfs:label>
+				</rdf:Description>
+			</event:place>
+			<event:place>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/place/NewYork">
+					<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" />
+					<rdf:type rdf:resource="http://purl.org/dc/terms/Location" />
+					<rdfs:label>New York</rdfs:label>
+				</rdf:Description>
+			</event:place>
+			<event:place rdf:resource="http://sws.geonames.org/6269131/" />
+			<event:agent>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/agent/theOxfordUniversityPress">
+					<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+					<rdf:type rdf:resource="http://purl.org/dc/terms/Agent" />
+					<rdfs:label>the Oxford University Press</rdfs:label>
+				</rdf:Description>
+			</event:agent>
+			<event:time>
+				<rdf:Description rdf:about="http://reference.data.gov.uk/id/year/1962">
+					<rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarYear" />
+					<rdfs:label>1962</rdfs:label>
+				</rdf:Description>
+			</event:time>
+		</rdf:Description>
+	</blt:publication>
+	<dct:language rdf:resource="http://lexvo.org/id/iso639-3/eng" />
+	<isbd:P1053 xml:lang="en">xviii, 222 p.</isbd:P1053>
+	<dct:subject>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/ddc/e18/248">
+			<skos:notation rdf:datatype="http://dewey.info/schema-terms/Notation">248</skos:notation>
+			<skos:inScheme rdf:resource="http://dewey.info/scheme/e18/" />
+			<rdf:type rdf:resource="http://www.bl.uk/schemas/bibliographic/blterms#TopicDDC" />
+			<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		</rdf:Description>
+	</dct:subject>
+	<dct:subject>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/lcsh/Monasticismandreligiousordersforwomen">
+			<skos:inScheme rdf:resource="http://id.loc.gov/authorities/subjects" />
+			<rdf:type rdf:resource="http://www.bl.uk/schemas/bibliographic/blterms#TopicLCSH" />
+			<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+			<rdfs:label>Monasticism and religious orders for women</rdfs:label>
+			<owl:sameAs rdf:resource="http://id.loc.gov/authorities/subjects/sh85086757" />
+		</rdf:Description>
+	</dct:subject>
+	<dct:subject>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/lcsh/MonasticismandreligiousordersRules">
+			<skos:inScheme rdf:resource="http://id.loc.gov/authorities/subjects" />
+			<rdf:type rdf:resource="http://www.bl.uk/schemas/bibliographic/blterms#TopicLCSH" />
+			<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+			<rdfs:label>Monasticism and religious orders--Rules</rdfs:label>
+			<owl:sameAs rdf:resource="http://id.loc.gov/authorities/subjects/sh85086731" />
+		</rdf:Description>
+	</dct:subject>
+	<dct:isPartOf>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/series/Originalseries%2FEarlyEnglishTextSociety">
+			<rdf:type rdf:resource="http://purl.org/ontology/bibo/Series" />
+			<rdf:type rdf:resource="http://purl.org/dc/terms/BibliographicResource" />
+			<rdfs:label>Original series / Early English Text Society</rdfs:label>
+		</rdf:Description>
+	</dct:isPartOf>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://id.loc.gov/vocabulary/languages/eng">
+	<skos:prefLabel xml:lang="en">English</skos:prefLabel>
+	<rdfs:label>English</rdfs:label>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eng</skos:notation>
+	<foaf:focus rdf:resource="http://lexvo.org/id/iso639-3/eng" />
+</rdf:Description>
+<rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+	<skos:prefLabel xml:lang="en">England</skos:prefLabel>
+	<rdfs:label>England</rdfs:label>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enk</skos:notation>
+	<foaf:focus rdf:resource="http://sws.geonames.org/6269131/" />
+</rdf:Description>
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/GB6300475">
+	<owl:sameAs rdf:resource="http://bnb.data.bl.uk/id/resource/000076385" />
+</rdf:Description>
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/series/Originalseries%2FEarlyEnglishTextSociety">
+	<dct:hasPart rdf:resource="http://bnb.data.bl.uk/id/resource/000076385" />
+</rdf:Description>
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/TolkienJRR%28JohnRonaldReuel%291892-1973">
+	<blt:hasContributedTo rdf:resource="http://bnb.data.bl.uk/id/resource/000076385" />
+</rdf:Description>
+
+
+
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/000135777">
+	<rdfs:label>Discrete and continuous boundary problems / F. V. Atkinson</rdfs:label>
+	<blt:bnb>GB6409675</blt:bnb>
+	<owl:sameAs rdf:resource="http://bnb.data.bl.uk/id/resource/GB6409675" />
+	<rdf:type rdf:resource="http://purl.org/dc/terms/BibliographicResource" />
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Book" />
+	<dct:title>Discrete and continuous boundary problems</dct:title>
+	<dct:creator>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/AtkinsonFV">
+			<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+			<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+			<rdf:type rdf:resource="http://purl.org/dc/terms/Agent" />
+			<owl:sameAs rdf:resource="http://viaf.org/viaf/27312492" />
+			<rdfs:label>Atkinson, F. V.</rdfs:label>
+			<foaf:name>F. V. Atkinson</foaf:name>
+			<foaf:familyName>Atkinson</foaf:familyName>
+			<foaf:givenName>F. V.</foaf:givenName>
+		</rdf:Description>
+	</dct:creator>
+	<blt:publication>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/000135777/publicationevent/LondonNewYorkAcademicPress1964">
+			<rdf:type rdf:resource="http://www.bl.uk/schemas/bibliographic/blterms#PublicationEvent" />
+			<rdfs:label>London ; New York : Academic Press, 1964</rdfs:label>
+			<event:place>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/place/London">
+					<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" />
+					<rdf:type rdf:resource="http://purl.org/dc/terms/Location" />
+					<rdfs:label>London</rdfs:label>
+				</rdf:Description>
+			</event:place>
+			<event:place>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/place/NewYork">
+					<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" />
+					<rdf:type rdf:resource="http://purl.org/dc/terms/Location" />
+					<rdfs:label>New York</rdfs:label>
+				</rdf:Description>
+			</event:place>
+			<event:place rdf:resource="http://sws.geonames.org/6269131/" />
+			<event:agent>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/agent/AcademicPress">
+					<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+					<rdf:type rdf:resource="http://purl.org/dc/terms/Agent" />
+					<rdfs:label>Academic Press</rdfs:label>
+				</rdf:Description>
+			</event:agent>
+			<event:time>
+				<rdf:Description rdf:about="http://reference.data.gov.uk/id/year/1964">
+					<rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarYear" />
+					<rdfs:label>1964</rdfs:label>
+				</rdf:Description>
+			</event:time>
+		</rdf:Description>
+	</blt:publication>
+	<dct:language rdf:resource="http://lexvo.org/id/iso639-3/eng" />
+	<isbd:P1053 xml:lang="en">xiv, 570 p.</isbd:P1053>
+	<dct:subject>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/ddc/e18/515.35">
+			<skos:notation rdf:datatype="http://dewey.info/schema-terms/Notation">515.35</skos:notation>
+			<skos:inScheme rdf:resource="http://dewey.info/scheme/e18/" />
+			<rdf:type rdf:resource="http://www.bl.uk/schemas/bibliographic/blterms#TopicDDC" />
+			<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		</rdf:Description>
+	</dct:subject>
+	<dct:subject>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/lcsh/Boundaryvalueproblems">
+			<skos:inScheme rdf:resource="http://id.loc.gov/authorities/subjects" />
+			<rdf:type rdf:resource="http://www.bl.uk/schemas/bibliographic/blterms#TopicLCSH" />
+			<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+			<rdfs:label>Boundary value problems</rdfs:label>
+			<owl:sameAs rdf:resource="http://id.loc.gov/authorities/subjects/sh85016102" />
+		</rdf:Description>
+	</dct:subject>
+	<dct:isPartOf>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/series/Mathematicsinscienceandengineering">
+			<rdf:type rdf:resource="http://purl.org/ontology/bibo/Series" />
+			<rdf:type rdf:resource="http://purl.org/dc/terms/BibliographicResource" />
+			<rdfs:label>Mathematics in science and engineering</rdfs:label>
+		</rdf:Description>
+	</dct:isPartOf>
+</rdf:Description>
+<rdf:Description rdf:about="http://id.loc.gov/vocabulary/languages/eng">
+	<skos:prefLabel xml:lang="en">English</skos:prefLabel>
+	<rdfs:label>English</rdfs:label>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eng</skos:notation>
+	<foaf:focus rdf:resource="http://lexvo.org/id/iso639-3/eng" />
+</rdf:Description>
+<rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/enk">
+	<skos:prefLabel xml:lang="en">England</skos:prefLabel>
+	<rdfs:label>England</rdfs:label>
+	<skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enk</skos:notation>
+	<foaf:focus rdf:resource="http://sws.geonames.org/6269131/" />
+</rdf:Description>
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/GB6409675">
+	<owl:sameAs rdf:resource="http://bnb.data.bl.uk/id/resource/000135777" />
+</rdf:Description>
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/series/Mathematicsinscienceandengineering">
+	<dct:hasPart rdf:resource="http://bnb.data.bl.uk/id/resource/000135777" />
+</rdf:Description>
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/AtkinsonFV">
+	<blt:hasCreated rdf:resource="http://bnb.data.bl.uk/id/resource/000135777" />
+</rdf:Description>
+</rdf:RDF>

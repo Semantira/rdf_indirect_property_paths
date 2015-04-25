@@ -1,0 +1,90 @@
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:dct="http://purl.org/dc/terms/" 
+	xmlns:isbd="http://iflastandards.info/ns/isbd/elements/" 
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+	xmlns:bibo="http://purl.org/ontology/bibo/" 
+	xmlns:rda="http://rdvocab.info/ElementsGr2/" 
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:blt="http://www.bl.uk/schemas/bibliographic/blterms#" 
+	xmlns:bio="http://purl.org/vocab/bio/0.1/" 
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+	xmlns:event="http://purl.org/NET/c4dm/event.owl#" 
+	xmlns:org="http://www.w3.org/ns/org#" 
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" 
+	xmlns:owl="http://www.w3.org/2002/07/owl#" 
+	xmlns:interval="http://reference.data.gov.uk/def/intervals/" 
+	xmlns:time="http://www.w3.org/2006/time#">
+
+<rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/000044704">
+	<rdfs:label>Ezra Pound and T. S. Eliot / Richard Aldington</rdfs:label>
+	<blt:bnb>GB5415875</blt:bnb>
+	<owl:sameAs rdf:resource="http://bnb.data.bl.uk/id/resource/GB5415875" />
+	<rdf:type rdf:resource="http://purl.org/dc/terms/BibliographicResource" />
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Book" />
+	<dct:title>Ezra Pound and T. S. Eliot : a lecture</dct:title>
+	<dct:creator>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/AldingtonRichard1892-1962">
+			<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+			<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+			<rdf:type rdf:resource="http://purl.org/dc/terms/Agent" />
+			<owl:sameAs rdf:resource="http://viaf.org/viaf/7402360" />
+			<rdfs:label>Aldington, Richard, 1892-1962</rdfs:label>
+			<foaf:name>Richard Aldington</foaf:name>
+			<foaf:familyName>Aldington</foaf:familyName>
+			<foaf:givenName>Richard</foaf:givenName>
+			<bio:event>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/AldingtonRichard1892-1962/birth">
+					<rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth" />
+					<bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1892</bio:date>
+					<rdfs:label>1892</rdfs:label>
+				</rdf:Description>
+			</bio:event>
+			<bio:event>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/person/AldingtonRichard1892-1962/death">
+					<rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Death" />
+					<bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1962</bio:date>
+					<rdfs:label>1962</rdfs:label>
+				</rdf:Description>
+			</bio:event>
+		</rdf:Description>
+	</dct:creator>
+	<blt:publication>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/resource/000044704/publicationevent/HurstBerksPeacocksPress1954">
+			<rdf:type rdf:resource="http://www.bl.uk/schemas/bibliographic/blterms#PublicationEvent" />
+			<rdfs:label>Hurst, Berks. : Peacocks Press, 1954</rdfs:label>
+			<event:place>
+				<rdf:Description rdf:about="http://bnb.data.bl.uk/id/place/HurstBerks">
+					<rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" />
+					<rdf:type rdf:resource="http://purl.org/dc/terms/Location" />
+					<rdfs:label>Hurst, Berks.</rdfs:label>
+				</rdf:Description>
+			</event:place>
+			<event:place rdf:resource="http://sws.geonames.org/6269131/" />
+				<event:agent>
+					<rdf:Description rdf:about="http://bnb.data.bl.uk/id/agent/PeacocksPress">
+						<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+						<rdf:type rdf:resource="http://purl.org/dc/terms/Agent" />
+						<rdfs:label>Peacocks Press</rdfs:label>
+					</rdf:Description>
+				</event:agent>
+			<event:time>
+				<rdf:Description rdf:about="http://reference.data.gov.uk/id/year/1954">
+					<rdf:type rdf:resource="http://reference.data.gov.uk/def/intervals/CalendarYear" />
+					<rdfs:label>1954</rdfs:label>
+				</rdf:Description>
+			</event:time>
+		</rdf:Description>
+	</blt:publication>
+	<dct:language rdf:resource="http://lexvo.org/id/iso639-3/eng" />
+	<isbd:P1053 xml:lang="en">20 p.</isbd:P1053>
+	<dct:subject>
+		<rdf:Description rdf:about="http://bnb.data.bl.uk/id/concept/ddc/e18/811.5">
+			<skos:notation rdf:datatype="http://dewey.info/schema-terms/Notation">811.5</skos:notation>
+			<skos:inScheme rdf:resource="http://dewey.info/scheme/e18/" />
+			<rdf:type rdf:resource="http://www.bl.uk/schemas/bibliographic/blterms#TopicDDC" />
+			<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept" />
+		</rdf:Description>
+	</dct:subject>
+</rdf:Description>
+</rdf:RDF>
