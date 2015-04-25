@@ -20,10 +20,7 @@ currently it only supports RDF/XML only.
 RDF file (sample files are in data folder
 
 ### Output
-Through the [Command-line Interface][CLI]:
-```bash
-cordova plugin rm com.cameraPlugin
-```
+
 
 ### Implementation
 
