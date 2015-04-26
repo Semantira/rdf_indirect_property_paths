@@ -37,6 +37,7 @@ The code returns simple string statements that can be converted to SPARQL statem
 
 Node Paths Called
 Paths: [
+
         {http://purl.org/ontology/bibo/Book [dct:creator] http://xmlns.com/foaf/0.1/Agent},   
         
         {http://purl.org/ontology/bibo/Book [dct:creator] http://xmlns.com/foaf/0.1/Person}, 
@@ -55,9 +56,9 @@ Paths: [
 Node Paths Called
 
 Paths: [
-        {http://purl.org/ontology/bibo/Book[dct:creator]http://xmlns.com/foaf/0.1/Person}
+        {http://purl.org/ontology/bibo/Book  [dct:creator]  http://xmlns.com/foaf/0.1/Person}
         
-        {http://xmlns.com/foaf/0.1/Person[bio:event]http://purl.org/vocab/bio/0.1/Death}
+        {http://xmlns.com/foaf/0.1/Person  [bio:event]  http://purl.org/vocab/bio/0.1/Death}
        ]
 
 #Note
