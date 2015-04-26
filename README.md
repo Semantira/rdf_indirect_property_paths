@@ -48,17 +48,21 @@ Paths: [
 Node Paths Called
 
 Paths: [
+
         {http://purl.org/ontology/bibo/Book [dct:creator] http://xmlns.com/foaf/0.1/Person}
         
         {http://xmlns.com/foaf/0.1/Person  [bio:event]  http://purl.org/vocab/bio/0.1/Birth}
+        
       ]
       
 Node Paths Called
 
 Paths: [
+
         {http://purl.org/ontology/bibo/Book  [dct:creator]  http://xmlns.com/foaf/0.1/Person}
         
         {http://xmlns.com/foaf/0.1/Person  [bio:event]  http://purl.org/vocab/bio/0.1/Death}
+        
        ]
 
 #Note
