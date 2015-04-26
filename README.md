@@ -38,7 +38,9 @@ The code returns simple string statements that can be converted to SPARQL statem
 Node Paths Called
 Paths: [
         {http://purl.org/ontology/bibo/Book [dct:creator] http://xmlns.com/foaf/0.1/Agent},   
+        
         {http://purl.org/ontology/bibo/Book [dct:creator] http://xmlns.com/foaf/0.1/Person}, 
+        
         {http://purl.org/ontology/bibo/Book [dct:creator] http://purl.org/dc/terms/Agent}
       ]
       
@@ -46,6 +48,7 @@ Node Paths Called
 
 Paths: [
         {http://purl.org/ontology/bibo/Book [dct:creator] http://xmlns.com/foaf/0.1/Person}
+        
         {http://xmlns.com/foaf/0.1/Person  [bio:event]  http://purl.org/vocab/bio/0.1/Birth}
       ]
       
@@ -53,8 +56,13 @@ Node Paths Called
 
 Paths: [
         {http://purl.org/ontology/bibo/Book[dct:creator]http://xmlns.com/foaf/0.1/Person}
+        
         {http://xmlns.com/foaf/0.1/Person[bio:event]http://purl.org/vocab/bio/0.1/Death}
        ]
+
+#Note
+
+The comma separated paths (int he out-put) are individual object type propert paths e.g. Book has a dct:creator that is a Person. The paths without comma are indirect graph paths e.g.Book has dct:creator that is a Person.. and Person got bio:Event that is Birth.
 
 ### Implementation
 
